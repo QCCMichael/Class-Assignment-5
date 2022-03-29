@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Michael Schultz - Class Assignment 5</title>
+    <link rel="stylesheet" href="animation.css">
+  </head>
+  <body>
+    <section class="container">
+      <img class="background" src="images/Miami.jpg" alt="Miami Beach" title="Beach in Miami">
+<img class="Brochure" src="images/Book.png" alt="Miami Brochure" title="Book of Miami Places">
+<img class="Heart1" src="images/Heart.png" alt="Hearts" title="Hearts">
+<img class="Heart2" src="images/Heart.png" alt="Hearts" title="Hearts">
+<img class="Heart3" src="images/Heart.png" alt="Hearts" title="Hearts">
+<img class="Heart4" src="images/Heart.png" alt="Hearts" title="Hearts">
+<img class="Heart5" src="images/Heart.png"alt=Hearts title="Hearts">
+<img class="Heart6" src="images/Heart.png" alt="Hearts" title="Hearts">
+<img class="Heart7" src="images/Heart.png" alt="Hearts" title="Hearts">
+<img class="Heart8" src="images/Heart.png" alt="Hearts" title="Hearts">
+<img class="Heart9" src="images/Heart.png" alt="Hearts" title="Hearts">
+<img class="Heart10" src="images/Heart.png" alt="Hearts" title="Hearts">
+<img class="Heart11" src="images/Heart.png"alt="Hearts" title="Hearts">
+<img class="Heart12" src="images/Heart.png" alt="Hearts" title="Hearts">
+<h2 class="MSG">Welcome to Miami!</h2>
+    </section>
+  </body>
+</html>
