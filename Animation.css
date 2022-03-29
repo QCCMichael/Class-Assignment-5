@@ -1,0 +1,154 @@
+.container{
+width:100%
+margin-left:auto;
+margin-right: auto;
+border: outset 20px darkgray;
+position: relative;
+}
+.background{
+  width: 100%;
+  transition: backdrop-filter 5s;
+  backdrop-filter: blur(30px) opacity(5);
+}
+.Brochure{
+  position: absolute;
+  width: 10%;
+  left: 20%;
+  top:20%;
+  bottom:20%;
+  animation: slideBrochure 3s;
+  }
+@keyframes slideBrochure {
+  0%{transform: translate(20px,20px) rotate(0deg); opacity: 0;}
+  50%{transform: translate(100px, 100px) rotate(200deg); opacity:1;}
+  100%{transform: translate(250px, -30px) rotate(-60deg);opacity: 1;}
+}
+.MSG{
+  position: absolute;
+  top:40%;
+  bottom: 40%;
+  left:20%;
+  right:20%
+  text-align: center;
+  animation:zoomMSG 10s forwards;
+}
+@keyframes zoomMSG{
+0%{transform: scale(1) translate(0,0);}
+25%{transform:scale(0.3); color:red;}
+50%{transform:scale(2) translate(100px,50px); color: green;}
+75%{transform:scale(0.5); color:orange;}
+100%{transform:scale(0) translate(-200px,-300px); color:blue;}
+}
+.Heart1{
+  position: absolute;
+width: 50%;
+  top:0%;
+  left:100%;
+  bottom: 0%;
+  animation-name: slideHearts;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+}
+.Heart2{
+  position: absolute;
+ width: 70%;
+  top:0%;
+  left:-10%;
+  animation-name: slideHearts;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+}
+.Heart3{
+  position: absolute;
+  width: 80%;
+  top:0%;
+  left:-10%;
+  animation-name: slideHearts;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+}
+.Heart4{
+  position: absolute;
+  width: 5%;
+  bottom:0%;
+  left:50%;
+  animation-name: slideHearts;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+}
+.Heart5{
+  position: absolute;
+  width: 9%;
+  bottom:5%;
+  left:50%;
+  animation-name: slideHearts;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+}
+.Heart6{
+  position: absolute;
+  width: 4%;
+  bottom:5%;
+  left:50%;
+  animation-name: slideHearts;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+}
+.Heart7{
+  position: absolute;
+  width: 3%;
+  top:0%;
+  left:90%;
+  animation-name: slideHearts;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+}
+.Heart8{
+  position: absolute;
+  width: 25%;
+  top:0%;
+  left:80%;
+  animation-name: slideHearts;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+}
+.Heart9{
+  position: absolute;
+  width: 15%;
+  top:0%;
+  left:70%;
+  animation-name: slideHearts;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+}
+.Heart10{
+  position: absolute;
+  width: 60%;
+  top:0%;
+  left:60%;
+  animation-name: slideHearts;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+}
+.Heart11{
+  position: absolute;
+  width: 43%;
+  top:0%;
+  left:30%;
+  animation-name: slideHearts;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+}
+.Heart12{
+  position: absolute;
+  width: 10%;
+  top:0%;
+  left:50%;
+  animation-name: slideHearts;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+}
+@keyframes slideHearts{
+0%{transform: translateX(0%); opacity: 0.9;}
+100%{transform:translateX(300%); opacity: 0.3;}
+}
